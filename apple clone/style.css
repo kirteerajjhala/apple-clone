@@ -1,0 +1,893 @@
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Abril Fatface', serif;
+font-family: 'Domine', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Quattrocento', serif;
+font-family: 'Roboto', sans-serif;
+}
+.main-container{
+    width: 100%;
+    height: auto;
+}
+.first-navbar{
+    width: 100%;
+    height: 80px;
+    background-color: rgb(215, 215, 215);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.first-nav-text{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: rgb(32, 32, 32);
+    padding-inline: 160px;
+}
+.box{
+    width: 370px;
+    height: 40px;
+    background-color: rgb(240, 238, 238);
+    border-radius: 10px;
+    display: flex;
+    justify-content: start;
+    align-items:center;
+   margin-left: 50px;
+}
+.first-nav-text p{
+  font-size: 12px;
+}
+#i{
+    margin-left: 240px;
+}
+#res{
+  display: none;
+}
+.box i{
+    margin-left: 20px;
+}
+.box h3{
+    margin-left: 20px;
+}
+.first-nav-text button{
+    width: 130px;
+    height: 37px;
+    font-size: 20px;
+    border-radius: 10px;
+    margin-right: 30p;
+    background-color: black;
+    color: white;
+}
+#l{
+    font-size: 25px;
+    margin-right: 30px;
+}
+
+/* second-navbar */
+.second-navbar{
+    width: 100%;
+    height:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245, 243, 243);
+    position: sticky;
+    top: 0%;
+}
+.second-nav-text{
+    width: 100%;
+    height: auto;
+    padding-inline: 100px;
+    
+}
+.second-nav-text ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.second-nav-text ul li{
+    list-style: none;
+   
+}
+.second-nav-text li a{
+    text-decoration: none;
+    color: black;
+}
+#nav {
+    font-size: 20px;
+}
+#res{
+  display: none;
+}
+
+/* third-navbar */
+ .third-navbar{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+ }
+ .third-nav-text{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 17px;
+
+ }
+ .third-nav-text span{
+    color: rgb(11, 116, 201);
+    font-size: 17px;
+ }
+ .third-nav-text span i{
+    font-size: 10px;
+ }
+
+ /* hero-section */
+   .hero-section{
+    width: 100%;
+    height: 600px;
+    padding-block: 50px;
+    background-image: url('./image/hero_mbp__fx6ku12vgw2m_large.jpg');
+    background-position: center;
+    background-size: cover;
+    background-color: rgb(245, 243, 243);
+   }
+   .hero-text{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   }
+   .hero-text h1{
+    font-size:55px ;
+    font-weight: 1500;
+   }
+   .hero-text h2{
+    font-size: 30px;
+    color: rgb(39, 39, 39);
+    margin-top: 6px;
+   }
+   .hero-text span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+   }
+   .hero-text h3{
+     font-size: 22px;
+     color: rgb(11, 116, 201);
+   }
+   .hero-text h4{
+    font-size: 22px;
+    margin-left: 40px;
+    color: rgb(11, 116, 201);
+   }
+   .hero-text span i{
+     margin-top: 5px;
+     font-size: 16 px ;
+     color:  rgb(11, 116, 201);
+     margin-left: 8px;
+   }
+   .hero-text span :hover{
+       border-bottom: 3px solid rgb(11, 116, 201);
+   }
+
+   /* imac */
+   .imac{
+    width: 100%;
+    height: 650px;
+    background-color: rgb(245, 243, 243);
+    margin-top: 15px;
+    background-image: url('./image/hero_imac__dqh65mwjj04m_large.jpg');
+    background-position: center;
+    background-size: cover;
+   }    
+   .imac-text{
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding-block: 50px;
+   }
+   .imac-text h1{
+     font-size: 60px;
+     font-weight: 1000;
+   }
+   .imac-text h2{
+    font-size: 30px;
+   }
+   .imac-text span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+   }
+   .imac-text h3{
+     font-size: 22px;
+     color: rgb(11, 116, 201);
+   }
+   .imac-text h4{
+    font-size: 22px;
+    margin-left: 40px;
+    color: rgb(11, 116, 201);
+   }
+   .imac-text span i{
+     margin-top: 5px;
+     font-size: 16 px ;
+     color:  rgb(11, 116, 201);
+     margin-left: 8px;
+   }
+   .imac-text span :hover{
+       border-bottom: 3px solid rgb(11, 116, 201);
+   }
+
+   /* iPhone 15 pro */
+     .iphone15pro{
+    width: 100%;
+    height: 620px;
+    background-color: rgb(245, 243, 243);
+    margin-top: 15px;
+    background-image: url('./image/hero_iphone15pro__i70z9oz3hj2i_large.jpg');
+    background-position: center;
+    background-size: cover;
+     }
+     .iphone15pro-text{
+      width: 100%;
+      height: auto;
+      color: white;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding-block: 50px;
+     }
+     .iphone15pro-text h1{
+        font-size: 55px;
+        font-weight: 1000;
+     }
+     .iphone15pro-text h2{
+        font-size: 27px;
+        margin-top: 9px;
+     }
+     .iphone15pro-text span{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+       }
+       .iphone15pro-text h3{
+         font-size: 22px;
+         color: rgb(11, 116, 201);
+       }
+       .iphone15pro-text h4{
+        font-size: 22px;
+        margin-left: 40px;
+        color: rgb(11, 116, 201);
+       }
+       .iphone15pro-text span i{
+         margin-top: 5px;
+         font-size: 16 px ;
+         color:  rgb(11, 116, 201);
+         margin-left: 8px;
+       }
+       .iphone15pro-text span :hover{
+           border-bottom: 1px solid rgb(11, 116, 201);
+       }
+      
+ /* grid-section */
+   .grid-section{
+    width: 100%;
+    height: auto;
+   }
+   .grid-text{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 49% 49%;
+    grid-template-rows: 620px 620px 620px 550px;
+    gap: 25px;
+    padding: 20px;
+    overflow: hidden;
+    
+   }
+   .grid-box{
+     background-position: center;
+     background-size: cover;
+   }
+   .grid-box:first-child{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-image: url('./image/promo_iphone15_announce__fmxxi8r9fkuy_large\ \(2\).jpg');
+   }
+   .grid1-text{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 60px;
+   }
+   .grid1-text h1{
+    font-size: 48px;
+   }
+   .grid1-text span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+   }
+   .grid1-text h3{
+     font-size: 22px;
+     color: rgb(11, 116, 201);
+   }
+   .grid1-text h4{
+    font-size: 22px;
+    margin-left: 40px;
+    color: rgb(11, 116, 201);
+   }
+   .grid1-text span i{
+     margin-top: 5px;
+     font-size: 16 px ;
+     color:  rgb(11, 116, 201);
+     margin-left: 8px;
+   }
+   .grid1-text span :hover{
+       border-bottom: 1px solid rgb(11, 116, 201);
+   }
+
+   .grid-box:nth-child(2){
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background-image: url('./image/holiday_2023_promo__dirvdl6a3r2a_large.jpg');
+   }
+   .grid2-text{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 60px;
+   }
+   .grid2-text h1{
+    font-size: 48px;
+   }
+   .grid2-text span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+   }
+   .grid2-text h3{
+     font-size: 24px; 
+   }
+   .grid2-text h4{
+    font-size: 22px;
+    margin-left: 40px;
+    color: rgb(11, 116, 201);
+   }
+   .grid2-text span i{
+     margin-top: 5px;
+     font-size: 16px ;
+     color:  rgb(11, 116, 201);
+     margin-left: 5px;
+   }
+   .grid2-text span :hover{
+       border-bottom: 1px solid rgb(11, 116, 201);
+   }
+   
+   .grid-box:nth-child(3){
+      grid-column: 1/2;
+      grid-row: 2/3;
+      background-image: url('./image/promo_apple_watch_series_9_order__b3u85rm9zf6u_large.jpg');
+   }
+   .grid3-text{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 60px;
+    color: white;
+   }
+   .grid3-text h1{
+    font-size: 35px;
+   }
+   .grid3-text h1 i{
+    font-size: 40px;
+   }
+   .grid3-text span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+   }
+   .grid3-text h3{
+     font-size: 20px; 
+     color: rgb(11, 116, 201);
+   }
+   .grid3-text h4{
+    font-size: 20px;
+    margin-left: 40px;
+    color: rgb(11, 116, 201);
+   }
+   .grid3-text span i{
+     margin-top: 5px;
+     font-size: 12px ;
+     color:  rgb(11, 116, 201);
+     margin-left: 5px;
+   }
+   .grid3-text span :hover{
+       border-bottom: 1px solid rgb(11, 116, 201);
+   }
+   .grid3-text h6{
+    font-size: 13px;
+    letter-spacing: 4px;
+    color: rgb(208, 56, 56);
+    margin-top: 8px;
+   }
+   .grid3-text h2{
+    font-size: 25px ;
+    margin-top: 13px;
+   }
+
+   .grid-box:nth-child(4){
+    grid-column: 2/3;
+    grid-row: 2/3;
+    background-image: url('./image/promo_airpods_pro_order__d8xv36p4uwae_large.jpg');
+   }
+   .grid4-text{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 60px;
+    color: white;
+   }
+   .grid4-text h1{
+    font-size: 48px;
+   }
+   .grid4-text span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+   }
+   .grid4-text h3{
+     font-size: 22px;
+     color: rgb(11, 116, 201);
+   }
+   .grid4-text h4{
+    font-size: 22px;
+    margin-left: 40px;
+    color: rgb(11, 116, 201);
+   }
+   .grid4-text span i{
+     margin-top: 5px;
+     font-size: 16 px ;
+     color:  rgb(11, 116, 201);
+     margin-left: 8px;
+   }
+   .grid4-text span :hover{
+       border-bottom: 1px solid rgb(11, 116, 201);
+   }
+
+   .grid-box:nth-child(5){
+     grid-column: 1/2;
+     grid-row: 3/4;
+     background-image: url('./image/tile__cauwwcyyn9hy_large.jpg');
+   }
+   .grid5-text{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 60px;
+    color: black;
+   }
+   .grid5-text h1{
+    font-size: 45px;
+   }
+   .grid5-text span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+   }
+   .grid5-text h2{
+    font-size: 25px;
+    text-align: center;
+   }
+   .grid5-text h3{
+     font-size: 22px;
+     color: rgb(11, 116, 201);
+   }
+   .grid5-text h4{
+    font-size: 22px;
+    margin-left: 40px;
+    color: rgb(11, 116, 201);
+   }
+   .grid5-text span i{
+     margin-top: 5px;
+     font-size: 16 px ;
+     color:  rgb(11, 116, 201);
+     margin-left: 8px;
+   }
+   .grid5-text span :hover{
+       border-bottom: 1px solid rgb(11, 116, 201);
+   }
+
+   .grid-box:nth-child(6){
+    grid-column: 2/3;
+    grid-row: 3/4;
+    background-image: url('./image/promo_iphone_tradein__bugw15ka691e_large.jpg');
+   }
+   .grid6-text{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 60px;
+    color: black;
+   }
+   .grid6-text h1{
+    font-size: 45px;
+   }
+   .grid6-text h2{
+    font-size: 25px;
+    text-align: center;
+   }
+   .grid6-text span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+   }
+   .grid6-text h3{
+     font-size: 22px;
+     color: rgb(11, 116, 201);
+     margin-top: 5px;
+   }
+   .grid6-text span i{
+     margin-top: 5px;
+     font-size: 16 px ;
+     color:  rgb(11, 116, 201);
+     margin-left: 8px;
+   }
+   .grid6-text span :hover{
+       border-bottom: 1px solid rgb(11, 116, 201);
+   }
+   .grid-box:nth-child(7){
+      grid-column: 1/3;
+      grid-row:4/5 ;
+      background-image: url('./image/980x551.jpg');
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+    }
+    .grid7-text{
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+    }
+    .grid7-text button{
+      width: 170px;
+      height: 50px;
+      border-radius: 30px;
+      font-size: 17px;
+      font-weight: 1000;
+    }
+    .grid7-text button i{
+        margin-left: 10px;
+    }
+   .grid7-text h1{
+    font-size: 30px;
+    color: white;
+     margin-right: 50%;
+     margin-left: 30px;
+   }
+   .grid7-text h2{
+     margin-left: 30px;
+     font-size:40px;
+     color: white;
+   }
+  
+
+   /* footer-section */
+   .footer-section{
+    width: 100%;
+    height: auto;
+    background-color: rgb(245, 243, 243);
+    margin-top: 30px;
+    padding-inline: 210px;
+    padding-block: 10px;
+   }
+   .footer-first{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    padding-block: 30px;
+    color: gray;
+   
+   }
+   .footer-first p{
+    font-size: 14px;
+    margin-top: 15px;
+   }
+   .footer-first p span{
+    border-bottom: 1px solid rgb(48, 48, 48);
+   }
+   hr{
+    margin-top: 10px;
+   }
+
+   /* footer-center */
+     .footer-center{
+      width: 100%;
+      height: auto;
+      padding-block: 20px;
+
+     }
+     .footer-center-text{
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      align-items: start
+     }
+     .footer-center ul{
+      width: 100%;
+      height: auto;
+      display: flex;
+      justify-content:center;
+      align-items: start;
+      flex-direction: column;
+     }
+     .footer-center-text ul li{
+      list-style: none;
+      font-size: 14px;
+      margin-top: 11px;
+     }
+     .footer-center-text li a{
+      text-decoration: none;
+      color: rgb(90, 90, 90);
+     }
+     .footer-center-text ul li h1{
+      font-size: 14px;
+     } 
+     .footer-center-text  li h2{
+      font-size: 14px;
+      margin-top: 15px;
+     }
+     .footer-center p{
+      margin-top: 35px;
+      font-size: 14px;
+     }
+     .footer-center p a{
+      color:  rgb(11, 116, 201);
+     } 
+     .footer-center-text ul li :hover{
+      border-bottom: 1px solid black;
+     }
+
+     /* footer-down */
+      .footer-down{
+        width: 100%;
+        height: auto;
+      }
+      .footer-down-text{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items:center ;
+        margin-top: 10px;
+      }
+      .footer-down-text p{
+        width: 30%;
+        font-size: 14px;
+      }
+      .footer-down-text ul{
+        width: 50%;
+        height: auto;
+        display: flex;
+        justify-content:space-between ;
+        align-items: center;
+      }
+     .footer-down-text ul  hr{
+        height: 18px;
+      }
+      .footer-down-text ul li{
+        list-style: none;
+      }
+      .footer-down-text ul li a{
+        text-decoration: none;
+        color: black;
+      }
+      .footer-down-text ul li :hover{
+       border-bottom: 1px solid black;
+      }
+    
+      @media(max-width:768px){
+      
+      .main-container{
+        width: 100%;
+        height: auto;
+      }
+      .first-navbar{
+        display: none;
+      }
+      .second-navbar{
+        width: 100%;
+        height: auto;
+      }
+      .second-navbar ul{
+        
+        height: 50px;
+      }
+      .second-navbar li a{
+        display: none;
+      }
+      .second-navbar li{
+        font-size: 20px;
+       margin-left: 19px;
+      }
+      #res{
+        display: flex;
+      }
+      #nav{
+        font-size: 27px;
+        margin-right: 110px;
+      }
+      .third-navbar{
+        width: 100%;
+        height: 30px;
+      }
+      .third-nav-text{
+        width: 100%;
+        height: auto;
+        font-size: 15px;
+      }
+      .hero-section{
+        width: 100%;
+       
+      }
+      .hero-text{
+        width: 100%;
+        height: auto;
+      }
+      .grid-section{
+        width: 100%;
+        
+      }
+      .grid-text{
+        width: 100%; 
+        height: auto;
+        display: flex;
+        flex-direction: column;
+      }
+      .grid-box:first-child{
+        width:100%;
+        height:500px;
+      }
+      .grid-box:nth-child(2){
+        width:100%;
+        height:600px;
+      }
+      .grid-box:nth-child(3){
+        width:100%;
+        height:600px;
+      }
+      .grid-box:nth-child(4){
+        width:100%;
+        height:600px;
+      }
+      .grid-box:nth-child(5){
+        width:100%;
+        height:600px;
+      }
+      .grid-box:nth-child(6){
+        width:100%;
+        height:600px;
+      }
+      .grid-box:nth-child(7){
+        width: 100%;
+        height:400px;
+      }
+      .grid7-text {
+        width: 100%;
+        height: auto;
+        
+      }
+      .grid7-text button{
+        width: 600px;
+        font-size: 13px;
+      }
+      .grid7-text h1{
+        width: 100%;
+        height: auto;
+        font-size: 20px;
+      }
+      .grid7-text h2{
+        display: none;
+      }
+      .footer-section{
+        width: 100%;
+        height: auto;
+        padding-inline: 20px;
+      }
+      .footer-first{
+        width: 100%;
+        height: auto;
+      }
+      .footer-first br{
+        display: none;
+      }
+      .footer-first p{
+        font-size: px ;
+      }
+      .footer-center{
+        width: 100%;
+        height: auto;
+      }
+      .footer-center-text{
+        width: 100%;
+        height: auto;
+      }
+      .footer-center-text ul li a{
+        display: none;
+      }
+      .footer-center-text ul{
+        display: inline;
+      }
+      .footer-down{
+        width: 100%;
+        height: auto;
+      }
+      .footer-down-text{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        flex-direction: column-reverse;
+      }
+      .footer-down-text p{
+        width: 50%;
+        margin-top: 5px ;
+      }
+      .footer-down-text ul{
+        width: 100%;
+        margin-top: 5px;
+      }
+      
+    }
+    
